@@ -12,6 +12,16 @@
 
   gtag('config', 'UA-120061861-1');
 </script>
+  
+  <!-- Tracking outbound links -->
+<script>
+  var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>
 
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -99,7 +109,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="contact">
   <h2><u>Contact:</u></h2>
   <p><a href="mailto:thuanle703@gmail.com" title="My e-mail address">Email me</a></p>
-  <p><a href="https://www.linkedin.com/in/thuan-le-a9806781" title="My LinkedIn's profile">My LinkedIn's page</a></p>
+  <p><a href="https://www.linkedin.com/in/thuan-le-a9806781" onclick="trackOutboundLink('https://www.linkedin.com/in/thuan-le-a9806781'); return false;" title="My LinkedIn's profile">My LinkedIn's page</a></p>
   </p>
 </div>
 </div>
