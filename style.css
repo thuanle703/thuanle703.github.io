@@ -29,7 +29,7 @@
     display: block;
   }
 
-.sidenav a:hover {
+ .sidenav a:hover {
     color: red;
   }
 
@@ -44,19 +44,30 @@
     text-align: center;
   }
 
-  #contact {
-  margin-bottom: 30px;
-  }
-
-  #contact p {
-  padding: 20px;
-  display: inline;
-  }
-
   footer {
+    display: inline;
+  }
+
+  footer .copyright {
     font-style: italic;
+    font-size: 12px;
     text-transform: capitalize;
-    text-align: center;
+    margin-top: 40px;
+    margin-left: 150px;
+  }
+
+  footer .grouplink {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+  }
+
+  footer #link {
+    padding: 8px 5px 5px 5px;
+  }
+
+  footer ul {
+    list-style: none;
   }
 
   /* Typography */
