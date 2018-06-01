@@ -33,7 +33,7 @@
     color: red;
   }
 
-  .main {
+ .main {
     margin-left: 160px; 
     font-size: 10px;
     padding: 0px 10px;
@@ -42,7 +42,15 @@
   #overview {
     margin: 0;
     text-align: center;
+  }
 
+  #contact {
+  margin-bottom: 20px;
+  }
+
+  #contact p {
+  padding: 20px;
+  display: inline;
   }
 
   footer {
