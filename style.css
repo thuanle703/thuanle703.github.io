@@ -1,17 +1,15 @@
 /* General Styling */
-  html {
-    font-family: 'Helvetica', 'Arial', 'sans-serif';
-    font-size: 10px;
-  }
 
   body {
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 10px;
     width: 80em;
     margin: 0 auto;
   }
 
   .sidenav {
     height: 100%;
-    width: 200px;
+    width: 220px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -24,6 +22,7 @@
   .sidenav a {
     padding: 15px 12px 12px 12px;
     text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 25px;
     color: white;
     display: block;
