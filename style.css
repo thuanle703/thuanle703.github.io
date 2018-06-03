@@ -23,7 +23,6 @@
     padding: 15px 12px 12px 12px;
     text-decoration: none;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 25px;
     color: white;
     display: block;
   }
@@ -75,6 +74,9 @@
   }
 
   @media screen and (min-device-width: 376px) {
+    .sidenav a {
+    font-size: 2em;
+    }
     h1 {
     font-size: 4em;
     }
@@ -90,6 +92,9 @@
   }
 
   @media screen and (max-device-width: 375px) {
+    .sidenav a {
+    font-size: 1em;
+    }
     h1 {
       font-size: 2em;
     }
