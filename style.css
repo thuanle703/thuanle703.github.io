@@ -74,7 +74,7 @@
   }
 
   /*-----All other devices-----*/
-  @media only screen 
+  @media screen 
   and (min-device-width: 668px) {
     .sidenav a {
       font-size: 2em;
@@ -96,7 +96,7 @@
   /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
   /* Portrait and Landscape */
-  @media only screen 
+  @media screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
