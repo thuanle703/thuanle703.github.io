@@ -1,117 +1,117 @@
 /* General Styling */
 
   body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    width: 80em;
-    margin: 0 auto;
-  }
+  font-family: 'Roboto', sans-serif;
+  width: 80em;
+  margin: 0 auto;
+}
 
-  .sidenav {
-    height: 100%;
-    width: 210px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow: auto
-    padding-top: 20px;
-    background-color: black;
-  }
+.sidenav {
+  height: 100%;
+  width: 210px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: auto
+  padding-top: 20px;
+  background-color: black;
+}
 
+.sidenav a {
+  padding: 15px 12px 12px 12px;
+  text-decoration: none;
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: red;
+}
+
+.main {
+  margin-left: 180px;
+  font-size: 10px;
+  padding: 0px 10px;
+}
+
+#overview {
+  margin: 0;
+  text-align: center;
+}
+
+footer {
+  display: inline;
+}
+
+footer .copyright {
+  font-style: italic;
+  font-size: 12px;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+
+footer .grouplink {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+footer #link {
+  padding: 8px 5px 5px 5px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+/* General Typography */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/*-----All other devices-----*/
+@media screen
+and (min-device-width: 668px) {
   .sidenav a {
-    padding: 15px 12px 12px 12px;
-    text-decoration: none;
-    font-family: 'Julius Sans One', sans-serif;
-    color: white;
-    display: block;
+    font-size: 20px;
   }
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h3  {
+    font-size: 30px;
+  }
+  p, li {
+    font-size: 18px;
+  }
+}
 
- .sidenav a:hover {
-    color: red;
-  }
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
- .main {
-    margin-left: 180px; 
-    font-size: 10px;
-    padding: 0px 10px;
+/* Portrait and Landscape */
+@media screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+  .sidenav a {
+  font-size: 20px;
   }
-  
-  #overview {
-    margin: 0;
-    text-align: center;
+  h1 {
+    font-size: 42px;
   }
-
-  footer {
-    display: inline;
+  h2 {
+    font-size: 28px;
   }
-
-  footer .copyright {
-    font-style: italic;
-    font-size: 12px;
-    text-transform: capitalize;
-    margin-top: 40px;
-    margin-left: 150px;
-  }
-
-  footer .grouplink {
-    display: flex;
-    justify-content: flex-end;
-    float: right;
-  }
-
-  footer #link {
-    padding: 8px 5px 5px 5px;
-  }
-
-  footer ul {
-    list-style: none;
-  }
-
-  /* General Typography */
-  h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-  }
-
-  /*-----All other devices-----*/
-  @media screen 
-  and (min-device-width: 668px) {
-    .sidenav a {
-      font-size: 2em;
+  h3  {
+    font-size: 24px;
     }
-    h1 {
-      font-size: 4em;
-    }
-    h2 {
-      font-size: 3.2em;
-    }
-    h3  {
-      font-size: 2em;
-    }
-    p, li {
-      font-size: 1.7em;
+  p, li {
+    font-size: 16px;
     }
   }
 
-  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-  /* Portrait and Landscape */
-  @media screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-    .sidenav a {
-    font-size: 1em;
-    }
-    h1 {
-      font-size: 2em;
-    }
-    h2 {
-      font-size: 1.6em;
-    }
-    h3  {
-      font-size: 1em;
-      }
-    p, li {
-      font-size: 0.8em;
-      }
-    }
