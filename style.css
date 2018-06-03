@@ -68,30 +68,38 @@
     list-style: none;
   }
 
-  /* Typography */
+  /* General Typography */
   h1, h2, h3 {
     font-family: 'Playfair Display', serif;
   }
 
-  @media screen and (min-device-width: 376px) {
+  /*-----All other devices-----*/
+  @media only screen 
+  and (min-device-width: 668px) {
     .sidenav a {
-    font-size: 2em;
+      font-size: 2em;
     }
     h1 {
-    font-size: 4em;
+      font-size: 4em;
     }
     h2 {
-    font-size: 3.2em;
+      font-size: 3.2em;
     }
     h3  {
-    font-size: 2em;
+      font-size: 2em;
     }
     p, li {
-    font-size: 1.7em;
+      font-size: 1.7em;
     }
   }
 
-  @media screen and (max-device-width: 375px) {
+  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
     .sidenav a {
     font-size: 1em;
     }
