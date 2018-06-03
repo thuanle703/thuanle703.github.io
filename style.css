@@ -76,7 +76,7 @@ h1, h2, h3 {
 @media screen
 and (min-device-width: 668px) {
   .sidenav a {
-    font-size: 20px;
+    font-size: 21px;
   }
   h1 {
     font-size: 48px;
@@ -99,19 +99,19 @@ and (min-device-width: 668px) {
 and (min-device-width: 375px)
 and (max-device-width: 667px) {
   .sidenav a {
-  font-size: 20px;
+  font-size: 21px;
   }
   h1 {
-    font-size: 42px;
+    font-size: 40px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 26px;
   }
   h3  {
-    font-size: 24px;
+    font-size: 22px;
     }
   p, li {
-    font-size: 16px;
+    font-size: 14px;
     }
   }
 
