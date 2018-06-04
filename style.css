@@ -72,6 +72,12 @@ h1, h2, h3 {
   letter-spacing: 0.5px;
 }
 
+ h2 {
+   border: solid 1px black;
+   border-radius: 15px;
+   text-align: center;
+ }
+
 /*-----All other devices-----*/
 @media screen
 and (min-device-width: 668px) {
