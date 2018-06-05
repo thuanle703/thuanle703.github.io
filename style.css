@@ -58,7 +58,7 @@ footer .copyright {
   text-transform: capitalize;
   position: relative;
   top: 50px;
-  left: 300px;
+  left: 280px;
 }
 
 footer .grouplink {
@@ -117,7 +117,7 @@ and (max-device-width: 667px) {
     width: 190px;
   }
   .sidenav a {
-  font-size: 20px;
+    font-size: 20px;
   }
   h1 {
     font-size: 36px;
