@@ -112,6 +112,9 @@ and (min-device-width: 668px) {
 @media screen
 and (min-device-width: 375px)
 and (max-device-width: 667px) {
+  .sidenav {
+    width: 190px;
+  }
   .sidenav a {
   font-size: 20px;
   }
