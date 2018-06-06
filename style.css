@@ -93,42 +93,44 @@ h1, h2, h3 {
  /* ----------- iPhone 6 Plus, 6S Plus, 7 Plus and 8 Plus ----------- */
  @media only screen
      and (min-device-width : 414px)
-     and (max-device-width : 736px) {
+     and (max-device-width : 736px)
+     and (-webkit-device-pixel-ratio : 3) {
   .sidenav a {
-     font-size: 22px;
+     font-size: 18px;
    }
    h1 {
-     font-size: 46px;
+     font-size: 36px;
    }
    h2 {
-     font-size: 32px;
+     font-size: 24px;
    }
    h3  {
-     font-size: 28px;
+     font-size: 22px;
    }
    p, li {
-     font-size: 16px;
+     font-size: 12px;
    }
   }
 
  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
  @media only screen
    and (min-device-width: 375px)
-   and (max-device-width: 667px) {
+   and (max-device-width: 667px)
+   and (-webkit-device-pixel-ratio : 2) {
    .sidenav a {
-     font-size: 20px;
+     font-size: 16px;
    }
    h1 {
-     font-size: 44px;
+     font-size: 34px;
    }
    h2 {
-     font-size: 30px;
+     font-size: 22px;
    }
    h3  {
-     font-size: 26px;
+     font-size: 20px;
      }
    p, li {
-     font-size: 14px;
+     font-size: 10px;
      }
    }
 
