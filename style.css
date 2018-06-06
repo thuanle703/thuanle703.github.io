@@ -183,7 +183,7 @@ h1, h2, h3 {
 
  /*-------All other devices-------*/
  @media only screen
-   and (min-device-width: 813px) {
+   and (min-device-width: 735px) {
      
    .sidenav a {
      font-size: 21px;
