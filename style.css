@@ -90,15 +90,16 @@ h1, h2, h3 {
 
  /*-----Responsive Text----*/
 
- /* Portrait and Landscape */
 
  /* ----------- iPhone 6 Plus, 6S Plus, 7 Plus and 8 Plus ----------- */
+
+/* Portrait and Landscape */
  @media only screen
      and (min-device-width : 414px)
      and (max-device-width : 736px)
      and (-webkit-device-pixel-ratio : 3) {
   .sidenav {
-    width: 160px;
+    width: 180px;
        }
   .sidenav a {
      font-size: 18px;
@@ -117,6 +118,23 @@ h1, h2, h3 {
        }
     }
 
+  /* Portrait */
+  @media only screen
+     and (min-device-width : 414px)
+     and (max-device-width : 736px)
+     and (-webkit-device-pixel-ratio : 3)
+     and (orientation: portrait)  {
+  .sidenav {
+    width: 170px;
+       }
+   footer .copyright {
+    position: relative;
+    top: 20px;
+    left: 280px;
+       }
+   }
+       
+       
  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
  @media only screen
    and (min-device-width: 375px)
@@ -140,6 +158,19 @@ h1, h2, h3 {
    p, li {
      font-size: 11px;
      }
+   }
+
+  /* Portrait */
+  @media only screen
+     and (min-device-width : 375px)
+     and (max-device-width : 667px)
+     and (-webkit-device-pixel-ratio : 2)
+     and (orientation: portrait)  {
+   footer .copyright {
+      position: relative;
+      top: 20px;
+      left: 280px;
+       }
    }
 
  /*-----All other devices-----*/
