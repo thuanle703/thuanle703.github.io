@@ -93,30 +93,28 @@ h1, h2, h3 {
  /* ----------- iPhone 6 Plus, 6S Plus, 7 Plus and 8 Plus ----------- */
  @media only screen
      and (min-device-width : 414px)
-     and (max-device-width : 736px)
-     and (-webkit-device-pixel-ratio : 3) {
+     and (max-device-width : 736px) {
   .sidenav a {
-     font-size: 18px;
+     font-size: 22px;
    }
    h1 {
-     font-size: 42px;
+     font-size: 46px;
    }
    h2 {
-     font-size: 28px;
+     font-size: 32px;
    }
    h3  {
-     font-size: 24px;
+     font-size: 28px;
    }
    p, li {
-     font-size: 12px;
+     font-size: 16px;
    }
   }
 
  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
  @media only screen
    and (min-device-width: 375px)
-   and (max-device-width: 667px)
-   and (-webkit-min-device-pixel-ratio: 2) {
+   and (max-device-width: 667px) {
    .sidenav a {
      font-size: 20px;
    }
