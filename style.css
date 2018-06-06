@@ -98,7 +98,7 @@ h1, h2, h3 {
      and (max-device-width : 736px)
      and (-webkit-device-pixel-ratio : 3) {
   .sidenav {
-    width: 180px;
+    width: 160px;
        }
   .sidenav a {
      font-size: 18px;
@@ -123,7 +123,7 @@ h1, h2, h3 {
    and (max-device-width: 667px)
    and (-webkit-device-pixel-ratio : 2) {
    .sidenav {
-     width: 180px;
+     width: 160px;
    }
    .sidenav a {
      font-size: 16px;
