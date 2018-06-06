@@ -96,19 +96,19 @@ h1, h2, h3 {
      and (max-device-width : 736px)
      and (-webkit-device-pixel-ratio : 3) {
   .sidenav a {
-     font-size: 20px;
+     font-size: 18px;
    }
    h1 {
-     font-size: 46px;
+     font-size: 42px;
    }
    h2 {
-     font-size: 32px;
-   }
-   h3  {
      font-size: 28px;
    }
+   h3  {
+     font-size: 24px;
+   }
    p, li {
-     font-size: 16px;
+     font-size: 12px;
    }
   }
 
@@ -136,7 +136,7 @@ h1, h2, h3 {
 
  /*-----All other devices-----*/
  @media only screen
-   and (min-device-width: 800px) {
+   and (min-device-width: 737px) {
    .sidenav a {
      font-size: 21px;
    }
