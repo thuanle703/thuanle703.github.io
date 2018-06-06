@@ -98,6 +98,7 @@ h1, h2, h3 {
      and (min-device-width : 414px)
      and (max-device-width : 736px)
      and (-webkit-device-pixel-ratio : 3) {
+       
   .sidenav {
     width: 180px;
        }
@@ -124,6 +125,7 @@ h1, h2, h3 {
      and (max-device-width : 736px)
      and (-webkit-device-pixel-ratio : 3)
      and (orientation: portrait)  {
+       
   .sidenav {
     width: 170px;
        }
@@ -140,11 +142,12 @@ h1, h2, h3 {
    and (min-device-width: 375px)
    and (max-device-width: 667px)
    and (-webkit-device-pixel-ratio : 2) {
+     
    .sidenav {
      width: 160px;
    }
    .sidenav a {
-     font-size: 16px;
+     font-size: 17px;
    }
    h1 {
      font-size: 34px;
@@ -166,6 +169,7 @@ h1, h2, h3 {
      and (max-device-width : 667px)
      and (-webkit-device-pixel-ratio : 2)
      and (orientation: portrait)  {
+       
    footer .copyright {
       position: relative;
       top: 20px;
@@ -173,9 +177,26 @@ h1, h2, h3 {
        }
    }
 
- /*-----All other devices-----*/
+ /*-------- iPhone X ----------- */
+
+ /* Portrait */
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
+      
+    footer .copyright {
+      position: relative;
+      top: 20px;
+      left: 280px;
+       }
+  }
+
+ /*-------All other devices-------*/
  @media only screen
    and (min-device-width: 737px) {
+     
    .sidenav a {
      font-size: 21px;
    }
