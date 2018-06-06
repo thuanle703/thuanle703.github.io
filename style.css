@@ -86,13 +86,57 @@ h1, h2, h3 {
    border: solid 1px black;
    border-radius: 12px;
    text-align: center;
-   min-width: 100px;
-   min-height: 30px;
  }
+
+/* Portrait and Landscape */
+
+/* ----------- iPhone 6 Plus, 6S Plus, 7 Plus and 8 Plus ----------- */
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px) 
+    and (-webkit-device-pixel-ratio : 3) {
+ .sidenav a {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3  {
+    font-size: 28px;
+  }
+  p, li {
+    font-size: 16px;
+  }
+ }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  .sidenav a {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3  {
+    font-size: 26px;
+    }
+  p, li {
+    font-size: 14px;
+    }
+  }
 
 /*-----All other devices-----*/
 @media only screen
-and (min-width: 668px) {
+  and (min-device-width: 737px)
   .sidenav a {
     font-size: 21px;
   }
@@ -109,30 +153,3 @@ and (min-width: 668px) {
     font-size: 18px;
   }
 }
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-and (min-width: 375px)
-and (max-width: 667px) {
-  .sidenav {
-    width: 190px;
-  }
-  .sidenav a {
-    font-size: 20px;
-  }
-  h1 {
-    font-size: 36px;
-  }
-  h2 {
-    font-size: 22px;
-  }
-  h3  {
-    font-size: 18px;
-    }
-  p, li {
-    font-size: 10px;
-    }
-  }
-
