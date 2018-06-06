@@ -170,6 +170,9 @@ h1, h2, h3 {
      and (-webkit-device-pixel-ratio : 2)
      and (orientation: portrait)  {
        
+   .sidenav {
+      width: 140px;
+   }
    footer .copyright {
       position: relative;
       top: 20px;
@@ -186,6 +189,9 @@ h1, h2, h3 {
     and (-webkit-min-device-pixel-ratio: 3)
     and (orientation: portrait) { 
       
+    .sidenav {
+      width: 140px;
+       }  
     footer .copyright {
       position: relative;
       top: 20px;
