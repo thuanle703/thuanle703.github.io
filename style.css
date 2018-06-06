@@ -86,13 +86,13 @@ h1, h2, h3 {
    border: solid 1px black;
    border-radius: 12px;
    text-align: center;
-   min-width: 120px;
+   min-width: 100px;
    min-height: 30px;
  }
 
 /*-----All other devices-----*/
-@media screen
-and (min-device-width: 668px) {
+@media only screen
+and (min-width: 668px) {
   .sidenav a {
     font-size: 21px;
   }
@@ -113,9 +113,9 @@ and (min-device-width: 668px) {
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait and Landscape */
-@media screen
-and (min-device-width: 375px)
-and (max-device-width: 667px) {
+@media only screen
+and (min-width: 375px)
+and (max-width: 667px) {
   .sidenav {
     width: 190px;
   }
