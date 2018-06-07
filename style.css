@@ -6,9 +6,15 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  margin: auto;
+  font-size: 10px;
   background-image: url("bg.jpg");
 }
+
+ section {
+   margin-left: 250px;
+   padding: 10px 10px 50px 50px;
+   max-width: auto;
+  }
 
 .sidenav {
   height: 100%;
@@ -31,12 +37,6 @@ body {
 
 .sidenav a:hover {
   color: red;
-}
-
-.main {
-  margin-left: 250px;
-  font-size: 10px;
-  padding-top: 10px;
 }
 
 #overview {
