@@ -11,7 +11,7 @@ body {
 }
 
  section {
-   margin-left: 200px;
+   margin-left: 180px;
    padding: 10px 10px 50px 50px;
    max-width: auto;
   }
@@ -176,7 +176,7 @@ h1, h2, h3 {
    footer .copyright {
       position: relative;
       top: 20px;
-      left: 280px;
+      left: 260px;
        }
    }
 
